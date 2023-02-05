@@ -1,0 +1,16 @@
+ 1049  python train.py --batch 32 --epochs 150 --data 'data/penguins_data.yaml' --weights 'yolov5s6.pt' --project 'runs_penguins' --name 'feature_extraction' --cache --freeze 12\n
+ 1050  python train.py --batch 32 --epochs 150 --data 'data/penguins_data.yaml' --weights 'yolov5s6.pt' --project 'runs_penguins' --name 'feature_extraction' --cache --freeze 12\n
+ 1051  python train.py --batch 32 --epochs 150 --data 'data/penguins_data.yaml' --weights 'yolov5s6.pt' --project 'runs_penguins' --name 'feature_extraction' --cache --freeze 12\n
+ 1052  python train.py --batch 32 --epochs 150 --data 'data/penguins_data.yaml' --weights 'yolov5s6.pt' --project 'runs_penguins' --name 'feature_extraction' --cache --freeze 12\n
+ 1053  python train.py --batch 32 --epochs 150 --data 'data/penguins_data.yaml' --weights 'yolov5s6.pt' --project 'runs_penguins' --name 'feature_extraction' --cache --freeze 12\n
+ 1054  python train.py --batch 32 --epochs 150 --data 'data/penguins_data.yaml' --weights 'yolov5s6.pt' --project 'runs_penguins' --name 'feature_extraction' --cache --freeze 12\n
+ 1055  python train.py --batch 32 --epochs 150 --data 'data/penguins_data.yaml' --weights 'yolov5s6.pt' --project 'runs_penguins' --name 'feature_extraction' --cache --freeze 12\n
+ 1056  python train.py --batch 32 --epochs 50 --data 'data/penguins_data.yaml' --weights 'yolov5s6.pt' --project 'runs_penguins' --name 'feature_extraction' --cache --freeze 12\n
+ 1057  python train.py --hyp 'hyp.finetune.yaml' --batch 16 --epochs 100 --data 'data/penguins_data.yaml' --weights 'runs_penguins/feature_extraction29/weights/best.pt' --project 'runs_penguins' --name 'fine-tuning' --cache)
+ 1058  python train.py --hyp 'hyp.finetune.yaml' --batch 16 --epochs 100 --data 'data/penguins_data.yaml' --weights 'runs_penguins/feature_extraction29/weights/best.pt' --project 'runs_penguins' --name 'fine-tuning' --cache
+ 1059  ta.yaml' --weights 'yolov5s6.pt' --project 'runs_penguins' --name 'feature_extraction' --cache --freeze 12\n\n'
+ 1060  ls
+ 1061  python detect.py --weights 'runs_penguins/fine-tuning/weights/best.pt'  --conf 0.6 --source '../datasets/Penguins_data/images/test' --project 'runs_penguins' --name 'detect_test' --augment --line=3
+ 1062  python detect.py --weights 'runs_penguins/fine-tuning/weights/best.pt'  --conf 0.6 --source '../datasets/Penguins_data/images/test' --project 'runs_penguins' --name 'detect_test' --augment --line=3
+ 1063  pwd
+ 1064  history
